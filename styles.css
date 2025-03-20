@@ -1,0 +1,120 @@
+
+.container{
+    font-family: 'Roboto', sans-serif;
+    background-color: #002857;
+    padding: 20px;
+    margin: -10px;
+}
+.container--Header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.img--talento{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.logo--Talento{
+    height: 100px;
+    width: 150px;
+}
+.titulos--Header{
+    display: flex;
+    flex-direction: column-reverse;
+    background-color: #ffffff;
+    print-color-adjust: exact;
+    background-image: url(./image/back.jpg);
+    border-radius: 20px;
+    padding: 10px;
+    margin: 10px;
+    width: 400px;
+}
+.nombre{
+    margin-bottom: -20px;
+}
+.imagen1 {
+    border-radius: 90%;
+    height: 100px;
+    width: 105px;
+}
+.imagenes--Header {
+    margin: 10px;
+    padding: 10px;
+    width: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #ffffff;   
+    text-decoration: none;
+    border-radius: 20px;
+}
+.imagenes--redes{
+    display: flex;
+    gap: 40px;
+}
+.a{
+    text-decoration: none;
+}
+.git--logo {
+    height: 50px;
+}
+.linkedin--logo {
+    height: 50px;
+}
+.container--parrafos{
+    display: flex;
+    flex-direction: row-reverse;
+    padding: 10px;
+}
+.parrafo{
+    width: 70%;
+    margin: 5px;
+    padding: 10px;
+    background-color: #ffffff;
+    border-radius: 20px;
+}
+.barra--lateral{
+    width: 30%;
+    margin: 5px;
+    padding: 10px;
+    background-color: #ffffff;
+    border-radius: 20px;
+}
+.container--tabla{
+    margin-bottom: 10px;
+    background-color: #ffffff;
+    border-radius: 20px;
+}
+.container--tabla {
+    padding: 10px;
+    margin: 0px 10px 10px 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+table {
+    border-collapse: collapse;
+    width: 60%;
+}
+
+th, td {
+    padding: 8px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+.container--formulario{
+    color: #ffffff;
+    padding: 10px;
+}
+.container--footer {
+    background-color: #0066c8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin-bottom: -5px;
+    font-style: italic;
+}
